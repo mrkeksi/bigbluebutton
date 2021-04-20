@@ -131,8 +131,9 @@
 
 .userContentContainer {
   display: flex;
+  flex: 1;
+  overflow: hidden;
   align-items: center;
-  width: 64%;
   flex-direction: row;
 }
 
@@ -183,7 +184,6 @@
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  flex: 1;
 }
 
 .lobbyMessage {
